@@ -1,0 +1,54 @@
+
+    h1{border-bottom: 1px black solid;
+      margin:0;
+      }
+    ol
+    {
+    
+      border-right:1px black solid;
+      display:100px;
+      padding:20px;
+      margin:0;
+      height: 100%;
+    }
+    body
+    {
+      text-align: center;
+      margin:0;
+    }
+    #ribbon
+    {
+      display:grid;
+      grid-template-columns: 150px 1fr;
+    }
+    img
+    {
+      
+      display:block;
+      margin:0px auto;
+      
+    }
+    .main
+    {
+      padding: 20px;
+    }
+    @media(max-width:800px)
+    {
+      
+    #ribbon
+    {
+      display:block;
+    }
+     h1{
+       border-bottom: none;
+     
+      }
+    ol
+    {
+    
+      border-right:none;
+      
+    }
+      
+    }
+          
